@@ -193,11 +193,11 @@ input:focus::-moz-placeholder {
 }
 
 a {
-  color: #9777fa;
+/*  color: #9777fa;*/
 }
 
 a:hover {
-  color: #7856dd;
+ /* color: #7856dd;*/
 }
 
 li.hr span {
@@ -887,11 +887,11 @@ h6 {
 
 .btn.btn-default {
   color: #ffffff;
-  background-color: #9777fa;
+  background-color: #2b4eff;
 }
 
 .btn.btn-default:hover {
-  background-color: #6d4bd3;
+  background-color: #2b4eff;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
   -webkit-transition: 0.2s;
@@ -984,7 +984,7 @@ h6 {
 }
 
 .box-button-shadow::before {
-  background: #9777fa;
+/*  background: #9777fa;*/
   -webkit-filter: blur(20px);
           filter: blur(20px);
   border-radius: 10px;
@@ -1266,13 +1266,13 @@ textarea:focus {
   padding: 20px 40px;
   color: #ffffff;
   border: none;
-  background-color: #9777fa;
+background-color: #2b4eff;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
 }
 
 .contact-from-area .contact-form-style button:hover {
-  background-color: #7856dd !important;
+background-color: #2b4eff !important;
 }
 
 .form-group {
@@ -1677,7 +1677,7 @@ label {
 }
 
 .card-grid-2 a:hover {
-  color: #9777fa;
+ /* color: #9777fa;*/
 }
 
 .card-grid-2 .card-grid-2-image-rd {
@@ -2127,12 +2127,12 @@ label {
 }
 
 .list-recent-jobs .card-job .card-job-top--info-heading:hover a {
-  color: #9777fa;
+/*  color: #9777fa;*/
 }
 
 .list-recent-jobs .card-job .card-job-top--info .card-job-top--company {
   font-weight: bold;
-  color: #9777fa;
+  /*color: #9777fa;*/
   font-size: 12px;
 }
 
@@ -2186,7 +2186,7 @@ label {
 }
 
 .card-job-bottom a.color-muted:hover {
-  color: #9777fa !important;
+/*  color: #9777fa !important;*/
 }
 
 .card-grid-4 {
@@ -2518,7 +2518,7 @@ label {
 }
 
 .nav-right li button:hover {
-  background-color: #9777fa;
+  background-color: #2b4eff;
   color: #ffffff;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
@@ -2528,7 +2528,7 @@ label {
 
 .nav-right li button.active {
   color: #ffffff;
-  background-color: #9777fa;
+  background-color: #2b4eff;
 }
 
 .job-text-desc {
@@ -2899,7 +2899,7 @@ label {
 }
 
 .banner-hero .banner-inner .banner-imgs {
-  padding: 55px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   position: relative;
 }
 
@@ -2963,7 +2963,7 @@ label {
 .banner-hero .block-banner {
   position: relative;
   z-index: 12;
-  padding: 60px 150px 80px 80px;
+  padding: 60px 45px 80px 80px;
 }
 
 .banner-hero .block-banner .form-find {
@@ -3224,7 +3224,7 @@ label {
 }
 
 .header .main-menu li a:hover {
-  color: #9777fa;
+/*  color: #9777fa;*/
 }
 
 .header .main-menu li a i {
@@ -3336,12 +3336,12 @@ label {
   -webkit-animation: shadow-pulse 1s infinite;
           animation: shadow-pulse 1s infinite;
 }
-
+/*
 .header .block-signin .btn-shadow {
   -webkit-box-shadow: 0px 3px 10px rgba(151, 119, 250, 0.4);
           box-shadow: 0px 3px 10px rgba(151, 119, 250, 0.4);
 }
-
+*/
 .header.stick {
   padding: 14px 0px;
 }
@@ -4085,7 +4085,7 @@ label {
   background-color: #fff;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  background-color: #9777fa;
+  background-color: #2b4eff;
 }
 
 #scrollUp i {
