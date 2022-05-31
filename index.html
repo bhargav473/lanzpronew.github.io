@@ -13,6 +13,67 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css" />
     <link rel="stylesheet" href="assets/css/mainc619.css?v=1.0" />
+
+    <style type="text/css">
+        
+        .ver {
+  display: flex;
+  overflow: hidden;
+  height: 38vw;
+  margin-top: 30px;
+ /* background: #333;*/
+}
+ 
+.ver img {
+  max-width: 100%;
+/*  width: 100%;*/
+  vertical-align: middle;
+/*  border: 2px solid white;*/
+  box-sizing: border-box;
+  transition: opacity .2s;
+
+
+
+
+
+  margin: 0 auto;
+}
+ 
+.ver:hover img {
+  opacity: 0.5;
+
+}
+
+
+.ver img:hover{
+  transform: scale(1.09); 
+   transition: transform .5s; /* Animation *//* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ 
+.ver img:hover {
+  opacity: 1;
+}
+ 
+.ver .single-column {
+ animation: var(--animation, none) 16s infinite linear;
+}
+ 
+.ver .single-column:hover {
+ animation-play-state: paused; 
+}
+ 
+.ver .single-column:nth-of-type(odd) {
+  align-self: flex-end;
+  --direction: 50%;
+}
+ 
+@keyframes slide {
+  to {
+    -webkit-transform: translateY(var(--direction, -50%));
+            transform: translateY(var(--direction, -50%));
+  }
+}
+    </style>
 </head>
 
 <body>
@@ -43,7 +104,7 @@
                              
                                 </li>
                                 <li class="has-children">
-                                    <a href="">Browse Jobs</a>
+                                    <a href="index1.html">home2</a>
                             
                                 </li>
                                 <li class="has-children">
@@ -181,26 +242,72 @@ vibrant developers community</h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6">
+                        <div class="col-lg-5 col-md-6 ">
                             <div class="banner-imgs">
-                                <img alt="" src="assets/imgs/banner/banner.png" class="img-responsive " />
-                               <!--  <span class="union-icon"><img alt="" src="assets/imgs/banner/union.svg" class="img-responsive shape-3" /></span>
+                                <img alt="" src="assets/imgs/banner/banner -(4).png" class="img-responsive animate__pulse " />
+                              <!--   <span class="union-icon"><img alt="" src="assets/imgs/banner/union.svg" class="img-responsive shape-3" /></span>
                                 <span class="congratulation-icon"><img alt="" src="assets/imgs/banner/congratulation.svg" class="img-responsive shape-2" /></span>
                                 <span class="docs-icon"><img alt="" src="assets/imgs/banner/docs.svg" class="img-responsive shape-2" /></span>
                                 <span class="course-icon"><img alt="" src="assets/imgs/banner/course.svg" class="img-responsive shape-3" /></span>
                                 <span class="web-dev-icon"><img alt="" src="assets/imgs/banner/web-dev.svg" class="img-responsive shape-3" /></span>
                                 <span class="tick-icon"><img alt="" src="assets/imgs/banner/tick.svg" class="img-responsive shape-3" /></span> -->
                             </div>
+<!-- <div class="banner-imgs">
+
+     <div class="ver " >
+   
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=4" alt="image"></a>
+  <a href="#"><img src="https://picsum.photos/300/300?random=1" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=2" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=3" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=4" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+   <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/banner.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/banner2.png" alt="image"></a>
+
+ 
+ </div>
+</div> --><br>
+<script type="text/javascript">
+    [...document.querySelectorAll('.single-column')].map(column => {
+ column.style.setProperty('--animation', 'slide');
+ column.style.setProperty('height', '200%');
+ column.innerHTML = column.innerHTML + column.innerHTML;
+});
+</script>
+
+
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="section-box wow animate__animated animate__fadeIn mt-70">
+        <div class="section-box wow animate__animated animate__fadeIn mt-10">
             <div class="container">
                 <div class="box-swiper">
                     <div class="swiper-container swiper-group-6">
-                        <div class="swiper-wrapper pb-70 pt-5">
+                        <div class="swiper-wrapper pb-10 pt-5">
                             <div class="swiper-slide hover-up">
                                 <div class="item-logo"><a href=""><img alt="" src="assets/imgs/slider/logo/target.png" /></a></div>
                             </div>
@@ -227,7 +334,7 @@ vibrant developers community</h1>
             </div>
         </div>
            
-        <section class="section-box mt-50">
+        <section class="section-box mt-30">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-lg-7">
@@ -1739,6 +1846,9 @@ vibrant developers community</h1>
                 </div>
             </div>
         </div>
+
+
+        
         <section class="section-box mt-50 mb-60">
             <div class="container">
                 <div class="box-newsletter">
@@ -1823,6 +1933,107 @@ vibrant developers community</h1>
             </div>
         </div>
     </footer>
+
+
+   <div class="ver">
+   
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ </div>
+
+ <div class="single-column">
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+  <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-2.png" alt="image"></a>
+ <a href="#"><img src="assets/imgs/banner/profile-1.png" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="https://picsum.photos/300/300?random=21" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=22" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=23" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=24" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=21" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=22" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=23" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=24" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="https://picsum.photos/300/300?random=25" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=26" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=27" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=28" alt="image"></a>
+  <a href="#"><img src="https://picsum.photos/300/300?random=25" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=26" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=27" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=28" alt="image"></a>
+ </div>
+ <div class="single-column">
+ <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=29" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=30" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=31" alt="image"></a>
+ <a href="#"><img src="https://picsum.photos/300/300?random=32" alt="image"></a>
+ </div>
+</div><br>
+<script type="text/javascript">
+    [...document.querySelectorAll('.single-column')].map(column => {
+ column.style.setProperty('--animation', 'slide');
+ column.style.setProperty('height', '200%');
+ column.innerHTML = column.innerHTML + column.innerHTML;
+});
+</script>
+
+
+
+
+
+
+
+
     <!-- End Footer -->
     <!-- Vendor JS-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>

@@ -887,14 +887,15 @@ h6 {
 
 .btn.btn-default {
   color: #ffffff;
-  background-color: #2b4eff;
+  background-color: #5192ff;
 }
 
 .btn.btn-default:hover {
-  background-color: #2b4eff;
+  background-color: #5192ff;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
   -webkit-transition: 0.2s;
+  color: white;
   transition: 0.2s;
 }
 
@@ -1266,7 +1267,7 @@ textarea:focus {
   padding: 20px 40px;
   color: #ffffff;
   border: none;
-background-color: #2b4eff;
+background-color: #5192ff;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
 }
@@ -1312,14 +1313,14 @@ label {
 }
 
 .box-swiper .swiper-container .item-logo {
-  border: 1px solid rgba(6, 18, 36, 0.1);
+ /* border: 1px solid rgba(6, 18, 36, 0.1);*/
   padding: 39px 0px 36px 0px;
   display: inline-block;
   width: 100%;
   text-align: center;
   border-radius: 12px;
-  -webkit-box-shadow: 0px 20px 60px -6px rgba(0, 0, 0, 0.04);
-          box-shadow: 0px 20px 60px -6px rgba(0, 0, 0, 0.04);
+/*  -webkit-box-shadow: 0px 20px 60px -6px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 20px 60px -6px rgba(0, 0, 0, 0.04);*/
 }
 
 .box-swiper .swiper-container .item-logo img {
@@ -1327,9 +1328,9 @@ label {
 }
 
 .box-swiper .swiper-container .item-logo:hover {
-  border: 1px solid rgba(151, 119, 250, 0.5);
+/*  border: 1px solid rgba(151, 119, 250, 0.5);
   -webkit-box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.05);
-          box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.05);
+          box-shadow: 20px 20px 54px rgba(0, 0, 0, 0.05);*/
 }
 
 .box-swiper .swiper-button-next:after,
@@ -1356,7 +1357,7 @@ label {
 .box-swiper .swiper-button-next,
 .box-swiper .swiper-button-prev {
   width: 40px;
-  margin-top: -55px;
+  margin-top: -25px;
 }
 
 .box-swiper .swiper-button-next {
@@ -1673,7 +1674,7 @@ label {
 
 .card-grid-2 a {
   text-decoration: none;
-  color: #1f2938;
+/*  color: #1f2938;*/
 }
 
 .card-grid-2 a:hover {
@@ -1813,7 +1814,9 @@ label {
   border: thin solid rgba(151, 119, 250, 0.5);
   font-size: 14px;
 }
-
+.mhover:hover{
+  background: #0984e3!important;
+}
 .card-grid-2 .card-block-info .card-2-bottom.card-2-bottom-candidate .btn-brand-hover:hover {
   color: #ffffff;
 }
@@ -2906,13 +2909,13 @@ label {
 .banner-hero .banner-inner .banner-imgs .union-icon {
   position: absolute;
   top: 10%;
-  left: -80px;
+  left: -40px;
 }
 
 .banner-hero .banner-inner .banner-imgs .congratulation-icon {
   position: absolute;
-  top: 30%;
-  left: -190px;
+  top: 31%;
+  left: -100px;
 }
 
 .banner-hero .banner-inner .banner-imgs .course-icon {
@@ -2923,7 +2926,7 @@ label {
 
 .banner-hero .banner-inner .banner-imgs .web-dev-icon {
   position: absolute;
-  top: 50%;
+  top: 60%;
   right: -60px;
 }
 
@@ -4085,7 +4088,7 @@ label {
   background-color: #fff;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  background-color: #2b4eff;
+  background-color: #5192ff;
 }
 
 #scrollUp i {
