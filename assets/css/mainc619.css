@@ -8048,3 +8048,51 @@ label {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+         .ver {
+         display: flex;
+         overflow: hidden;
+         height: 38vw;
+         margin-top: 30px;
+  
+         }
+         .ver img {
+         max-width: 100%;
+       
+         vertical-align: middle;
+      
+         box-sizing: border-box;
+         transition: opacity .2s;
+         margin: 0 auto;
+         }
+         .ver:hover img {
+         opacity: 0.5;
+         }
+         .ver img:hover{
+         transform: scale(1.09); 
+         transition: transform .5s; 
+         }
+         .ver img:hover {
+         opacity: 1;
+         }
+         .ver .single-column {
+         animation: var(--animation, none) 16s infinite linear;
+         }
+         .ver .single-column:hover {
+         animation-play-state: paused; 
+         }
+         .ver .single-column:nth-of-type(odd) {
+         align-self: flex-end;
+         --direction: 50%;
+         }
+         @keyframes slide {
+         to {
+         -webkit-transform: translateY(var(--direction, -50%));
+         transform: translateY(var(--direction, -50%));
+         }
+         }
+   
