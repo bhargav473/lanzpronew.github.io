@@ -101,6 +101,7 @@ video {
 .li li{
   font-size: x-large;
   margin-left: 23px;
+  line-height: 40px;
 }
 .header-nav a:hover {
  color: rgb(25, 118, 210)!important;
