@@ -99,8 +99,11 @@ video {
   vertical-align: baseline;
 }
 .li li{
-  font-size: x-large;
+ 
   margin-left: 23px;
+  line-height: 40px;
+      font-size: 22px;
+    font-weight: 400;
 }
 .header-nav a:hover {
  color: rgb(25, 118, 210)!important;
