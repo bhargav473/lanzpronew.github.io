@@ -98,13 +98,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-.li li{
-  font-size: x-large;
-  margin-left: 23px;
-}
-.header-nav a:hover {
- color: rgb(25, 118, 210)!important;
-}
+
 main {
   display: block;
   clear: both;
@@ -884,7 +878,7 @@ h6 {
 .btn {
   font-family: "Open Sans", sans-serif;
   border-radius: 10px;
-  padding: 10px 15px!important;
+  padding: 14px 25px;
   font-size: 18px;
   line-height: 1;
   -webkit-transition: 0.2s;
@@ -893,7 +887,7 @@ h6 {
 
 .btn.btn-default {
   color: #ffffff;
-  background-color: rgb(25, 118, 210);
+  background-color: #5192ff;
 }
 
 .btn.btn-default:hover {
@@ -1228,14 +1222,9 @@ input {
 }
 
 input:focus {
-  background: #fff!important;
+  background: transparent;
   border: 1px solid rgba(151, 119, 250, 0.5);
 }
-textarea:focus{
-   background: #fff!important;
-  
-}
-
 
 select {
   width: 100%;
@@ -1263,7 +1252,7 @@ textarea {
   padding: 10px 10px 10px 20px;
   font-size: 16px;
   width: 100%;
-  min-height: 180px;
+  min-height: 250px;
 }
 
 textarea:focus {
@@ -1275,10 +1264,9 @@ textarea:focus {
 .contact-from-area .contact-form-style button {
   font-size: 18px;
   font-weight: 500;
-  padding: 10px 20px;
+  padding: 20px 40px;
   color: #ffffff;
   border: none;
-
 background-color: #5192ff;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
@@ -2552,7 +2540,6 @@ label {
 
 .content-job-inner {
   padding: 40px;
-  padding-right: 10px!important;
 }
 
 .box-image-job {
@@ -2891,17 +2878,15 @@ label {
   padding: 0px 65px 0px 15px;
   position: relative;
   max-width: 1770px;
-
   margin: 0 auto;
 }
 
 .banner-hero::before {
   content: "";
   position: absolute;
-
   top: 0px;
   left: 15px;
-  width: 58%;
+  width: 65%;
   height: 100%;
   border-top-left-radius: 42px;
   border-top-right-radius: 150px;
@@ -2914,18 +2899,11 @@ label {
 .banner-hero .banner-inner {
   z-index: 5;
   position: relative;
-
-
 }
 
 .banner-hero .banner-inner .banner-imgs {
-  padding: 20px 0px 0px 0px;
+/*  padding: 20px 0px 0px 0px;*/
   position: relative;
-  
-  margin-left: 50px;
-  
-
-
 }
 
 .banner-hero .banner-inner .banner-imgs .union-icon {
@@ -2973,7 +2951,7 @@ label {
   display: inline-block;
   padding: 0px 0px 10px 25px;
 }
-/*
+
 .banner-hero .text-small-primary--disk::before {
   content: "";
   height: 15px;
@@ -2983,7 +2961,7 @@ label {
   top: 4px;
   left: 0px;
   border-radius: 50%;
-}*/
+}
 
 .banner-hero .block-banner {
   position: relative;
@@ -3164,14 +3142,14 @@ label {
 }
 
 .header {
-  padding: 17px 0;
+  padding: 30px 0;
   float: left;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 999;
-  background: rgb(245, 245, 245);
+  background: #fff;
 }
 
 .header .main-header {
@@ -3238,7 +3216,7 @@ label {
 .header .main-menu li a {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #080a28;
@@ -3246,7 +3224,6 @@ label {
   padding: 14px 22px 10px 22px;
   text-decoration: none;
   position: relative;
-
 }
 
 .header .main-menu li a:hover {
@@ -8079,8 +8056,8 @@ label {
          .ver {
          display: flex;
          overflow: hidden;
-         height: 40vw;
-         margin-top: 30px;
+         height: 44vw;
+         margin-top: 6px;
   
          }
          .ver img {
@@ -8119,3 +8096,29 @@ label {
          }
          }
    
+
+
+   .img-circle img{
+    border-radius: 35px;
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 50px;
+   }
+
+.dot-line{
+  margin-left: 10px;
+}
+
+  .dot-line li{
+/*line-height: 10px;*/
+font-size: 20px;
+  line-height: 40px;
+  margin-left: 12px;
+
+
+  }
+ 
+  .main-menu  li a:hover{
+
+color: blue;
+  }
