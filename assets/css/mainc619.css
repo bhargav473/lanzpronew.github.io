@@ -2539,7 +2539,7 @@ label {
 }
 
 .content-job-inner {
-  padding: 25px;
+/*  padding: 25px;*/
   padding-top: 0px!important;
 }
 
@@ -8122,4 +8122,8 @@ font-size: 20px;
   .main-menu  li a:hover{
 
 color: blue;
+  }
+  .ponts li{
+font-size: 18px;
+line-height: 38px;
   }
