@@ -8107,7 +8107,7 @@ label {
    }
 
 .dot-line{
-  margin-left: 10px;
+/*  margin-left: 10px;*/
 }
 
   .dot-line li{
@@ -8125,5 +8125,6 @@ color: blue;
   }
   .ponts li{
 font-size: 18px;
-line-height: 38px;
+line-height: 30px;
+margin-left: 10px;
   }
